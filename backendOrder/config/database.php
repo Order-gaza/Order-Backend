@@ -7,11 +7,11 @@
 
 class Database {
     // Database credentials - UPDATE THESE FOR YOUR HOSTING
-    private $host = "127.0.0.1";
-    private $port = "3306";
-    private $db_name = "u595508539_orderdb";
-    private $username = "u595508539_orderuser";
-    private $password = "M1p9lbf^d2";  // UPDATE THIS
+    private $host = "";
+    private $port = "";
+    private $db_name = "";
+    private $username = "";
+    private $password =   // UPDATE THIS
     private $conn;
 
     /**
