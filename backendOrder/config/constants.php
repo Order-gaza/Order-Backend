@@ -10,12 +10,12 @@ define("STATUS_FAIL", "fail");
 define("STATUS_ERROR", "error");
 
 // Email Settings
-define('SMTP_HOST', 'smtp.hostinger.com');
-define('SMTP_PORT', 587);
-define('SMTP_USERNAME', 'order@appforyou.store');
-define('SMTP_PASSWORD', ':^jFm3Pi!');
-define('SMTP_FROM_EMAIL', 'order@appforyou.store');
-define('SMTP_FROM_NAME', 'Order Gaza');
+define('SMTP_HOST', '');
+define('SMTP_PORT', );
+define('SMTP_USERNAME', '');
+define('SMTP_PASSWORD', '');
+define('SMTP_FROM_EMAIL', '');
+define('SMTP_FROM_NAME', '');
 
 // File Upload Settings
 define("MB", 1048576);
@@ -34,7 +34,7 @@ define("CATEGORIES_DIR", UPLOAD_DIR . "categories/");
 define("ADS_DIR", UPLOAD_DIR . "advertisements/");
 
 // Base URL for images (UPDATE THIS FOR YOUR SERVER)
-define("BASE_URL", "https://appforyou.store/backendOrder/");
+define("BASE_URL", "");
 define("IMAGE_BASE_URL", BASE_URL . "upload/");
 
 // Session/Token settings - SEPARATE DURATIONS
